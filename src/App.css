@@ -19,6 +19,8 @@ body {
     width: 300px;
     height: 30px;
     margin: 10px;
+    color: #fff;
+    font-size: 20px;
 }
 
 .searchbar input::placeholder {
@@ -70,6 +72,7 @@ span {
         width: 170px;
         height: 13px;
         margin: 5px;
+        font-size: 16px;
     }
     .searchbar button {
         padding: 4px 10px;
