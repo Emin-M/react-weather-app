@@ -47,6 +47,11 @@ body {
 
 .content div {
     margin: 45px;
-    color: #fff;
-    font-size: 25px;
+    color: red;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+span {
+    padding: 0 50px;
 }
