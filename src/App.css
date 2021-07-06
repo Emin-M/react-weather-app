@@ -67,8 +67,15 @@ span {
         margin: 10px;
     }
     .searchbar input {
-        width: 100px;
-        height: 10px;
-        margin: 3px;
+        width: 170px;
+        height: 13px;
+        margin: 5px;
+    }
+    .searchbar button {
+        padding: 4px 10px;
+        border-radius: 3px;
+        background-color: rgb(156, 60, 247);
+        color: #fff;
+        font-size: 10px;
     }
   }
