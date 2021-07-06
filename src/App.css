@@ -46,7 +46,7 @@ body {
 }
 
 .content div {
-    margin: 45px;
+    margin: 45px 0;
     color: red;
     font-weight: 900;
     font-size: 35px;
