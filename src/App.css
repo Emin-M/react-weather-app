@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/PHOTO-dark\ and\ stormy\ cloudscape-istock-1125x534-Landscape.jpg.crdownload);
+    background-image: url(images/planks-dark-old-wood-texture-background-170515350.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -47,7 +47,7 @@ body {
 
 .content div {
     margin: 45px 0;
-    color: red;
+    color: rgb(54, 17, 17);
     font-weight: 900;
     font-size: 35px;
 }

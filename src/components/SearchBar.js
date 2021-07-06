@@ -9,15 +9,19 @@ const SearchBar = ({ fetchWeather }) => {
         fetchWeather(q)
     }, [])
 
-    const click = (q) => {
+    const click = (e,q) => {
         fetchWeather(q);
         setQ('');
+        e.preventDefault();
     }
 
     return (
         <div className="searchbar">
-          <input onChange={(e)=>setQ(e.target.value)} value={q} type="text" placeholder="type for cities" />
-          <button onClick={()=>click(q)}>Search</button>
+        <form onSubmit={(e)=>click(e,q)}>
+          <input onChange={(e)=>setQ(e.target.value)} value={q}
+                 type="text" placeholder="type for cities" />
+          <button type="submit">Search</button>
+        </form>
         </div>
     )
 }
