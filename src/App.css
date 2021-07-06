@@ -60,4 +60,7 @@ span {
     .content div {
       font-size: 15px;
     }
+    span {
+        padding: 0 10px;
+    }
   }
